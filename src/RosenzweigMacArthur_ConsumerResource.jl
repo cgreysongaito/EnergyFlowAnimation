@@ -11,3 +11,7 @@
 #3. draw from this probability - then if stay keep particle in circle but jitter until next timestep. if move, move to next circle (or mortality)
 #4. calculate number of particles in each circle (and mortality) and place on image
 #repeat for specified number of iterations and from all PNG images create GIF
+
+#Questions
+#would number of energy particles need to be kept constant? How, if so?
+#how do transients and cycling fit into this?
