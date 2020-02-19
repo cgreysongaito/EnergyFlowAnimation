@@ -15,6 +15,13 @@
 #another option is to create a dataset of locations of particles on backgroun image over time. then another function to convert dataset into images
 #this option means that set number of energy particles and set number of timesteps. then iterate over each particle (to follow and to fill in column) and timestep
 
+
 #Questions
 #would number of energy particles need to be kept constant? How, if so?
 #how do transients and cycling fit into this?
+#Do i start with proportional number of energy particles as populations?
+#Or start with set number of particles in one variable and follow over time?
+
+#Other ideas
+#Size of variable balls changes to reflect population changes
+#or actually graph the population changes as normal (on side panel)
