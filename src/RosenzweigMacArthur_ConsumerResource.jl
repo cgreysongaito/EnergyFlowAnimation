@@ -12,6 +12,9 @@
 #4. calculate number of particles in each circle (and mortality) and place on image
 #repeat for specified number of iterations and from all PNG images create GIF
 
+#another option is to create a dataset of locations of particles on backgroun image over time. then another function to convert dataset into images
+#this option means that set number of energy particles and set number of timesteps. then iterate over each particle (to follow and to fill in column) and timestep
+
 #Questions
 #would number of energy particles need to be kept constant? How, if so?
 #how do transients and cycling fit into this?
