@@ -15,6 +15,10 @@
 #another option is to create a dataset of locations of particles on backgroun image over time. then another function to convert dataset into images
 #this option means that set number of energy particles and set number of timesteps. then iterate over each particle (to follow and to fill in column) and timestep
 
+#Gabe's comments - problem with above idea is discretizing in two ways (model from continuous to discrete, and population into discrete energy packets)
+#similar problem to quantum -> newtonian -> relativity (where our ecology ODES are "newtonian" by assuming well mixed and are larger scale than energy packets)
+#so could use gillespie algorithm, jump processes and/or individual based modelling for energy
+#gillespie algorithm similar to eulers method of soliving ODE - how so?
 
 #Questions
 #would number of energy particles need to be kept constant? How, if so?
